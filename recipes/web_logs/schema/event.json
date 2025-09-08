@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Web Access Event",
+  "type": "object",
+  "properties": {
+    "timestamp": { "type": "string", "format": "date-time" },
+    "client_ip": { "type": "string" },
+    "method": { "type": "string" },
+    "url": { "type": "string" },
+    "status": { "type": "integer" },
+    "bytes": { "type": "integer", "minimum": 0 },
+    "user_agent": { "type": "string" },
+    "referrer": { "type": "string" }
+  },
+  "required": ["timestamp","client_ip","method","url","status"]
+}

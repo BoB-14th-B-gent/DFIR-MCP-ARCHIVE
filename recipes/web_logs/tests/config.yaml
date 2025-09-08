@@ -1,0 +1,4 @@
+# Minimal test config for the web_logs recipe
+input: "tests/samples/apache_access.log"
+expected: "tests/golden/apache_access.ndjson"
+parser: "apache_common"

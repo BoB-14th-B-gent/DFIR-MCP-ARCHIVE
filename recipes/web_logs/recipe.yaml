@@ -1,0 +1,10 @@
+name: web_logs
+version: "0.1.0"
+description: "Parse and normalize web server access logs to an event schema."
+schema: "schema/event.json"
+tests:
+  config: "tests/config.yaml"
+  samples:
+    - "tests/samples/apache_access.log"
+  golden:
+    - "tests/golden/apache_access.ndjson"

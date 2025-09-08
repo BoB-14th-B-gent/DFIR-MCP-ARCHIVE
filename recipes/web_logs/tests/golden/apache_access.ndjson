@@ -1,0 +1,2 @@
+{"timestamp":"2020-10-10T13:55:36+09:00","client_ip":"127.0.0.1","method":"GET","url":"/index.html","status":200,"bytes":2326,"referrer":"-","user_agent":"curl/7.68.0"}
+{"timestamp":"2020-10-10T13:56:01+09:00","client_ip":"203.0.113.42","method":"POST","url":"/login","status":302,"bytes":517,"referrer":"https://example.com/","user_agent":"Mozilla/5.0"}
